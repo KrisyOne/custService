@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.flex{
+  display: flex;
+}
+.cust{
+  padding-top: 10%;
+  justify-content: space-around;
+}
+.cust-item{
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+.cust-item i{
+  font-size: 3rem;
+}
+.cust-item-label{
+  padding: 0.5rem 0;
+}
