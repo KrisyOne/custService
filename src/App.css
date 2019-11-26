@@ -30,7 +30,7 @@
 .cust-item{
   width: 5rem;
   height: 5rem;
-  line-height: 5rem;
+  line-height: 4rem;
   padding: 0.5rem;
   border-radius: 1rem;
 }
@@ -39,4 +39,13 @@
 }
 .cust-item-label{
   padding: 0.5rem 0;
+}
+.text-center{
+  text-align: center;
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
 }

@@ -41,3 +41,11 @@
     -->
   </body>
 </html>
+<script>
+   (function () {
+    let gmax = document.body.clientWidth / 750 * 22.5;
+    gmax = gmax > 14 ? 14 : gmax;
+    document.documentElement.style.fontSize = gmax + "px";
+    document.body.style.fontSize = gmax + "px";
+   })();
+</script>

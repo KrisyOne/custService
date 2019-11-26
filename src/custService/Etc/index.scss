@@ -1,0 +1,47 @@
+.etc {
+  h2,p{
+    margin:0;
+  }
+  .etc-title {
+    font-size: 1.6rem;
+    color: #fff;
+  }
+
+  .etc-subtitle {
+    font-size: 1.2rem;
+    color: #c4c4c4;
+  }
+
+  .etc-cust-num {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .etc-detail {
+    >div {
+      width: 50%;
+
+      &:first-child:after {
+        content: "";
+        width: 1px;
+        height: 80%;
+        background: #fff;
+        opacity: 0.5;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+
+      .etc-detail-title,
+      .etc-detail-num {
+        font-size: 1.3rem;
+        color: #fff;
+      }
+
+      .etc-detail-subtitle {
+        font-size: 1.2rem;
+        color: #c4c4c4;
+      }
+    }
+  }
+}
